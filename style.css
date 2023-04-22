@@ -28,7 +28,7 @@ body {
 
 }
 
-.centered-main-page-element {
+.main-element {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -44,13 +44,13 @@ body {
   display: flex;
 }
 
-ul {
+.list {
   margin: 0;
   padding: 0px;
 }
 
 li, 
-h3 {
+.sections-titile {
   list-style: none;
 }
 
@@ -75,7 +75,7 @@ button:hover {
 
 /* Heading */
 
-h3,
+.sections-titile,
 label[for='new-task'] {
   color: #333;
   font-weight: 700;
@@ -154,21 +154,21 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+.list#completed-tasks label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-ul li input[type=text] {
+.list li input[type=text] {
   display: none;
 }
 
-ul li.editMode input[type=text] {
+.list li.editMode input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-ul li.editMode label {
+.list li.editMode label {
   display: none;
 }
